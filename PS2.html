@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Video Player</title>
+	<style>
+	body {
+        backg#
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: white;
+      }
+		h1{
+			font-family:Arial;
+			color:black;
+			background-color:lightgrey;
+			text-align:center;
+
+		}
+		.videoplayers{
+			border:1px solid blue;
+			border-radius:5px;
+
+		}
+		img{
+			border:3px solid blue;
+			border-radius:5px;
+		}
+		footer{
+			background-color:none;
+			font-family:Arial;
+			color:black;
+		}
+		.navigation{
+			background-color:none;
+		}
+		a{
+			color:purple;
+		}
+		h3{
+			color:red;
+		}
+	</style>
+</head>
+
+<body>
+
+<!--Audio Player Name-->
+	<header>
+		<h1>SUYASH's VIDEO PLAYER</h1>
+	</header>
+
+<!--Navigation Links-->
+<section class="navigation" style="text-align: right;">
+		<nav>
+			<a href="https://www.youtube.com/watch?v=ScNNfyq3d_w">Video Streaming-youtube.com</a><br>
+			<a href="https://genius.com/Linkin-park-castle-of-glass-lyrics">For Watching Lyrics Click here!!</a><br>
+			<a href="#">Home Page</a><br>
+			<a href="#">Audio player Link</a><br>
+			<a href="#">Youtube player link</a><br>
+			<a href="#">External Resource</a><br>
+		</nav>
+</section>
+<hr>
+<!-- Audio Player section-->
+<center>
+<section class="videoplayers">
+	<h3>Video Player 1</h3>
+	<video width="650" height="300" controls autoplay loop >
+			<source src="E:\Suyash\OS Bootcamp.mp4" type="video/mp4">
+	</video>
+	<hr>
+	<h3>Video player 2</h3>
+	<video width="650" height="320" autoplay muted >
+			<source src="E:\Suyash\OS Bootcamp.mp4" type="video/mp4">
+	</video>
+	<video>
+			<track src="kjk.vtt" kind="subtitles" srclang="en" label="English">
+	</video>
+</section>
+</center>
+<hr>
+<!--Credit section-->
+<center>
+<footer>
+	<h2><u>CREDITS:</u></h2>
+	<h4>Video name:Castle of Glass</h4>
+	<h4>Linkin Park Band</h4>
+</footer>
+</center>
+</body>
+</html>
